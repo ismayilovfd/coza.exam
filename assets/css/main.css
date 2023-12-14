@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px;
+}
+header .container-fluid .navbar-brand {
+  margin-right: 20px;
+  font-weight: 600;
+  font-size: 22px;
+}
+header .container-fluid .navbar-brand strong {
+  font-weight: 700;
+}
+header .container-fluid .navbar-collapse {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+header .container-fluid .navbar-collapse ul li .hot {
+  position: relative;
+}
+header .container-fluid .navbar-collapse ul li .hot p {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #F74877;
+  color: white;
+  border-radius: 8px;
+  font-size: 13px;
+  padding: 0px 8px;
+}
+header .container-fluid .navbar-collapse ul li a {
+  font-weight: 600;
+}
+header .container-fluid .navbar-collapse ul li a:hover {
+  color: #717FE0;
+}
+header .container-fluid .navbar-collapse .icons {
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+  font-size: 22px;
+}
+header .container-fluid .navbar-collapse .icons i {
+  position: relative;
+}
+header .container-fluid .navbar-collapse .icons i p {
+  position: absolute;
+  top: -14px;
+  right: -8px;
+  background-color: #717FE0;
+  font-size: 10px;
+  color: white;
+  padding: 5px;
+}
+header .container-fluid .navbar-collapse .icons i:hover {
+  color: #717FE0;
+}
+
+#menCollection {
+  width: 100%;
+  background-image: url("https://preview.colorlib.com/theme/cozastore/images/slide-03.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
+#menCollection .collectioncontainer {
+  width: 90%;
+  margin: 30px;
+  padding: 30px;
+}
+#menCollection .collectioncontainer .row {
+  margin: 30px;
+  padding: 30px;
+}
+#menCollection .collectioncontainer .row .menText {
+  padding: 30px;
+}
+#menCollection .collectioncontainer .row .menText button {
+  margin: 30px 10px;
+  width: 180px;
+  padding: 15px;
+  background-color: #717FE0;
+  color: white;
+  border: none;
+  font-weight: 600;
+  border-radius: 28px;
+}
